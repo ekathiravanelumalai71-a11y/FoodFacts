@@ -72,3 +72,70 @@ h1 {
 .food-card p {
   margin-bottom: 5px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto 24px;
+  max-width: 1200px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.nav-links a.active {
+  color: green;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  margin-left: 8px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: green;
+  color: white;
+  font-size: 12px;
+}
+
+.page,
+.detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.error-message,
+.validation-error {
+  margin: 12px 0;
+  color: #b91c1c;
+}
+
+.food-card {
+  cursor: pointer;
+}
+
+.saved-item {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.saved-item button,
+.detail-page button {
+  margin-right: 10px;
+}
